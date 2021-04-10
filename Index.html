@@ -1,0 +1,52 @@
+<div class="row" style="margin:auto; width:350px">
+
+    <div class="col-sm-10" id="regForm">
+        <form method="post" action="post/" id="registration">
+            <h3>Sign Up</h3>
+            <div class="form-group">
+                <label>Email:</label>
+                <input class="form-control" type="text" id="regEmail" />
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input class="form-control" type="password" id="regPass" />
+            </div>
+            <div class="form-group">
+                <label>Repeat Password:</label>
+                <input class="form-control" type="password" id="regPass2" />
+            </div>
+            <div class="form-group">
+                <button type="submit" style="float:right; background-color: lawngreen; color:black;" class="btn btn-default">Sign Up</button>
+                <p id="info"></p>
+            </div>
+        </form>
+        <button id="jumpToLogin" type="submit" style="background-color: red; color:white; float: left" class="btn btn-default">Delete</button>
+        <br />
+        <br />
+        <br />
+        <a style="margin-left:80px" href="#" id=btnAlready name=" + stringId + ">Already signed in?</a>
+
+    </div>
+
+    <div class="col-sm-10" id="loginDiv">
+
+        <h3>Sign In</h3>
+        <br />
+        <div class="form-group">
+            <label>Email:</label>
+            <input style="float:right" class="form-control" type="text" id="loginEmail" />
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Password:</label>
+            <input style="float:right" class="form-control" type="password" id="loginPass" />
+        </div>
+        <br />
+        <div class="form-group">
+            <button type="submit" id="loginBtn" style="margin-top:6%; background-color: lawngreen; color:black; float:right" class="btn btn-default">Sign In</button>
+        </div>
+
+        <button id="jumpToLogin" type="submit" style="background-color: red; color:white; float: left" class="btn btn-default">Delete</button>
+
+    </div>
+</div>
